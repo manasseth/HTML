@@ -1,0 +1,9 @@
+#tuna {color:red;} /*id*/
+.tuna2 {color:blue;} /*class*/
+/*can be any attribute and any element*/
+p[name] {color:purple;} /*any paragraph with the attribute of name*/
+p[name="rami"] {color:pink;} /*any paragraph with the attribute of name*/
+/*regex*/
+p[name^="harry"] {color:cyan;} /*affected if it starts with harry*/
+p[name$="harry"] {color:grey;} /*affected if it ends with harry*/
+p[name*="harry"] {color:darkred;} /*affected if it has harry*/
