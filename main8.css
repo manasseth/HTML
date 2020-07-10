@@ -1,0 +1,12 @@
+/*Goes with tut6*/
+
+/*every p with a div parent gets affected*/
+/*div > p {color:green;}*/
+
+/*affect the 2nd element when it immediately follows the first (same parent)*/
+/*1st excluded... 2nd, 3rd, etc applies*/
+/*must be same parent*/
+/*p.rami + p{color:blue;}*/
+
+/*Same as + sign but there can be some stuff inbetweeen*/
+p.rami ~ p {color:blue;}

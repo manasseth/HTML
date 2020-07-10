@@ -1,0 +1,4 @@
+/*Goes with tut6.html*/
+*{color:blue;}
+
+:not(.rami){color:red;}
