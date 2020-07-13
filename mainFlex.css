@@ -41,3 +41,25 @@ body{
   padding: 5px;
   font: bold 14px Tahoma;
 }
+#new_div{
+  display: -webkit-box; /*has boxes inside it so parent must be a box*/
+  -webkit-box-orient: horizontal; /*children side by side, not on top of eachother*/
+}
+#main_section{
+  border: 1px solid blue;
+  -webkit-box-flex: 1; /*this box is going to be flexible -> dynamically change in size*/
+  margin: 20px;
+  padding: 20px;
+}
+#side_news{
+  border: 1px solid red;
+  width: 220px;
+  margin: 20px 0px;
+  padding: 30px;
+  background: #66CCCC;
+}
+#the_footer{
+  text-align: center;
+  padding: 20px;
+  border-top: 2px solid green;
+}
