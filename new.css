@@ -2,29 +2,35 @@
   border: 2px solid blue;
   display: -webkit-box;
   -webkit-box-orient: horizontal;
-  -webkit-box-direction: reverse;
+  width: 700px;
+  -webkit-box-pack: center;
 }
 #child1{
   border: 2px solid red;
   background: green;
   padding: 20px;
   margin: 10px;
+  width: 60px;
 }
 #child2{
   border: 2px solid red;
   background: yellow;
   padding: 20px;
   margin: 10px;
+  width: 60px;
+  -webkit-box-flex: 1;
 }
 #child3{
   border: 2px solid red;
   background: red;
   padding: 20px;
   margin: 10px;
+  width: 60px;
 }
 #child4{
   border: 2px solid red;
   background: orange;
   padding: 20px;
   margin: 10px;
+  width: 60px;
 }
