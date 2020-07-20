@@ -1,0 +1,18 @@
+body{
+  text-align: center;
+}
+#box{
+  display: block;
+  width: 500px;
+  margin: 50px auto;
+  padding: 15px;
+  text-align: center;
+  border: 7px solid blue;
+  background: yellow;
+  outline: 7px solid red; /*the thing around your border*/
+  -webkit-transform: translate(100px,100px) rotate(30deg) scale(.8); /*shrink or grow: scale, rotate, skew, translate (move it)*/
+}
+#text{
+  font: bold 30px Century Gothic;
+  text-shadow: rgb(110,110,110) 3px 3px 5px;
+}
