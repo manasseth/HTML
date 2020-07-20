@@ -1,5 +1,8 @@
 function getStuff(){
-  document.querySelector('#tuna').onclick=talk; /*select everything with the id of tuna, return vrey first element selected*/
+  var list = document.querySelectorAll('#tuna'); /*returns array or list of whatever we type inside it*/
+  for(var i=0; i<list.length; i++){
+    list[i].onclick=talk;
+  }
 }
 function talk(){
   alert('yoyoma!');
